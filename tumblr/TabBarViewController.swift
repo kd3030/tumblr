@@ -52,6 +52,10 @@ class TabBarViewController: UIViewController {
         
         trendingViewController = storyboard.instantiateViewControllerWithIdentifier("TrendingViewController")
 
+        UIView.animateWithDuration (1.0, delay: 0.2,
+            options: [.Repeat, .Autoreverse], animations: {
+                self.exploreView.center.y = 485
+            }, completion: nil)
         
         // Do any additional setup after loading the view.
     }
@@ -71,6 +75,12 @@ class TabBarViewController: UIViewController {
         self.searchUIButton.selected = false
         self.accountUIButton.selected = false
         self.trendingUIButton.selected = false
+        
+        UIView.animateWithDuration (1.0, delay: 0.2,
+            options: [.Repeat, .Autoreverse], animations: {
+                self.exploreView.center.y = 485
+            }, completion: nil)
+        
     }
 
   
@@ -98,6 +108,10 @@ class TabBarViewController: UIViewController {
         self.accountUIButton.selected = true
         self.trendingUIButton.selected = false
         
+        UIView.animateWithDuration (1.0, delay: 0.2,
+            options: [.Repeat, .Autoreverse], animations: {
+                self.exploreView.center.y = 485
+            }, completion: nil)
         
     }
     
@@ -113,6 +127,11 @@ class TabBarViewController: UIViewController {
         self.searchUIButton.selected = false
         self.accountUIButton.selected = false
         self.trendingUIButton.selected = true
+        
+        UIView.animateWithDuration (1.0, delay: 0.2,
+            options: [.Repeat, .Autoreverse], animations: {
+                self.exploreView.center.y = 485
+            }, completion: nil)
     }
     
     

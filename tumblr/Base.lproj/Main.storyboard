@@ -70,7 +70,7 @@
                                 <color key="backgroundColor" red="0.14509803921568629" green="0.20784313725490197" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="explore_popup" id="Sbl-4B-kbS">
-                                <rect key="frame" x="4" y="456" width="185" height="77"/>
+                                <rect key="frame" x="4" y="455" width="185" height="77"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
                         </subviews>
@@ -120,7 +120,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="uiButton" destination="2hZ-lC-Iid" id="7WO-H5-qth"/>
@@ -220,7 +220,7 @@
                                 <state key="normal" image="video_icon"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="WbR-JK-9VM">
-                                <rect key="frame" x="32" y="520" width="75" height="95"/>
+                                <rect key="frame" x="32" y="145" width="75" height="95"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="text_icon"/>
                             </button>
